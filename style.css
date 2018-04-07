@@ -1,0 +1,79 @@
+html, body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	background-image: url("intro.svg");
+
+}
+
+p {
+	/*TODO: Change the color of paragraph texts*/
+}
+
+h1 {
+	/*TODO: Change the color of h1 text*/
+}
+
+img {
+	border-radius: 25px;
+	max-width: 100%;
+}
+
+.brown {
+	/*TODO: Change the color of text to brown*/
+}
+
+#page-wrapper {
+	padding: 0 10% 0 10%;
+}
+
+#page-wrapper > * {
+	padding: 50px;
+	margin: auto;
+	height: auto;
+}
+
+
+#blue {
+	/*TODO: Change the background color to blue*/
+}
+
+#doubleyellow {
+	display: inline-block;
+	/*TODO: Change the background color to yellow*/
+}
+
+#doubleyellow > img  {
+	width: 45%;
+	margin: 0 20px 0 20px;
+}
+
+#green {
+	/*TODO: Change the backgrond color to green*/
+}
+
+#yellow {
+	/*TODO: Change the background color to yellow*/
+}
+
+#white {
+	/*TODO: Change the background color to white*/
+}
+
+#white > img {
+	width: 30.3%;
+}
+
+#content_holder {
+	display: inline-block;
+	/*TODO:; change the background color to green*/
+}
+
+.content {
+	width: 44.5%;
+	float: left;
+	margin: 2%;
+	border: 1px dashed orange;
+	padding: 5px;
+	background-color: #f0f0f0;
+}
