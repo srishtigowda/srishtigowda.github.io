@@ -1,26 +1,101 @@
-html, body {
+html, body {	background-color:lightskyblue;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+
 	text-align: center;
 	background-image: url("intro.svg");
-
+font-family: 'Pacifico', cursive;
 }
 
-p {
-	/*TODO: Change the color of paragraph texts*/
+@keyframes rainbow {
+	0% {background-color: red;}
+	14% {background-color: orange;}
+	28% {background-color: yellow;}
+	42% {background-color: green;}
+	56% {background-color: blue;}
+	70% {background-color: purple;}
+	80% {background-color: black;}
+}
+
+@keyframes change {
+		0% {transform: translateX(-100px);}
+		50%{transform: translateX(100px);}
 }
 
 h1 {
 	/*TODO: Change the color of h1 text*/
+	color: #339966;
+	animation-name: change;
+	animation-duration:10s;
+}
+
+
+
+#blue {
+	animation-name: rainbow;
+	animation-duration: 10s;
+	background-color: #e5ffff;
+}
+
+
+
+.dropbtn {
+	border: none;
+	padding: 16px;
+	font-size: 16px;
+	background-color: pink;
+	color: black;
+}
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: aboslute;
+	background-color: gray;
+	min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+
+
+
+	/*TODO: Change the color of paragraph texts*/
+	color:green;
+	font-size: 1.0em;
+}
+
+h1 {
+	/*TODO: Change the color of h1 text*/
+	color:purple;
+	font-size: 2.0em;
 }
 
 img {
-	border-radius: 25px;
+	border-radius: 50px;
 	max-width: 100%;
 }
 
 .brown {
 	/*TODO: Change the color of text to brown*/
+	color:brown;
+}
+
+.breakfast {
+	height: 600px;
 }
 
 #page-wrapper {
@@ -36,28 +111,34 @@ img {
 
 #blue {
 	/*TODO: Change the background color to blue*/
+	background-color:lightgreen;
 }
 
 #doubleyellow {
 	display: inline-block;
 	/*TODO: Change the background color to yellow*/
+	background-color:lightpink;
 }
 
 #doubleyellow > img  {
-	width: 45%;
+	width: 85%;
 	margin: 0 20px 0 20px;
 }
 
 #green {
 	/*TODO: Change the backgrond color to green*/
+	background-color:lightgreen;
+
 }
 
 #yellow {
 	/*TODO: Change the background color to yellow*/
+	background-color:lightpink;
 }
 
 #white {
 	/*TODO: Change the background color to white*/
+	background-color:lightpink;
 }
 
 #white > img {
@@ -67,6 +148,8 @@ img {
 #content_holder {
 	display: inline-block;
 	/*TODO:; change the background color to green*/
+	background-color:lightgreen;
+
 }
 
 .content {
